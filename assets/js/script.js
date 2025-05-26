@@ -158,23 +158,26 @@ const frontendTechnologies = [
   { name: "CSS3", icon: "./assets/images/tech/css3.svg" },
   { name: "Tailwind CSS", icon: "./assets/images/tech/tailwindcss.svg" },
   { name: "Bootstrap", icon: "./assets/images/tech/bootstrap.svg" },
-  { name: "JavaScript", icon: "./assets/images/tech/javascript.svg" },
-  { name: "TypeScript", icon: "./assets/images/tech/typescript.svg" },
+  // { name: "JavaScript", icon: "./assets/images/tech/javascript.svg" },
+  // { name: "TypeScript", icon: "./assets/images/tech/typescript.svg" },
   { name: "React.js", icon: "./assets/images/tech/react.svg" },
   { name: "Vue.js", icon: "./assets/images/tech/vue.svg" },
 ];
 
 // Backend Technologies
 const backendTechnologies = [
+  { name: "JavaScript", icon: "./assets/images/tech/javascript.svg" },
   { name: "Node.js", icon: "./assets/images/tech/nodejs.svg" },
   { name: "Express.js", icon: "./assets/images/tech/express.svg" },
-  { name: "PHP", icon: "./assets/images/tech/php.svg" },
-  { name: "Laravel", icon: "./assets/images/tech/laravel.svg" },
+  { name: "TypeScript", icon: "./assets/images/tech/typescript.svg" },
+  // { name: "PHP", icon: "./assets/images/tech/php.svg" },
+  // { name: "Laravel", icon: "./assets/images/tech/laravel.svg" },
 ];
 
 // Databases
 const databaseTechnologies = [
   { name: "MongoDB", icon: "./assets/images/tech/mongodb.svg" },
+  { name: "PostgreSQL", icon: "./assets/images/tech/postgresql.svg" },
   { name: "MySQL", icon: "./assets/images/tech/mysql.svg" },
 ];
 
@@ -183,13 +186,15 @@ const devopsTechnologies = [
   { name: "Git", icon: "./assets/images/tech/git.svg" },
   { name: "GitHub", icon: "./assets/images/tech/github.svg" },
   { name: "AWS", icon: "./assets/images/tech/aws.svg" },
-  { name: "NGINX", icon: "./assets/images/tech/nginx.svg" }
+  { name: "NGINX", icon: "./assets/images/tech/nginx.svg" },
+  { name: "Apache", icon: "./assets/images/tech/apache.svg" }
 ];
 
 // Tools & Utilities
 const toolsTechnologies = [
   { name: "VS Code", icon: "./assets/images/tech/vscode.svg" },
   { name: "Postman", icon: "./assets/images/tech/postman.svg" },
+  { name: "Insomnia", icon: "./assets/images/tech/insomnia.svg" },
   { name: "Jira", icon: "./assets/images/tech/jira.svg" },
   { name: "Trello", icon: "./assets/images/tech/trello.svg" },
   { name: "Slack", icon: "./assets/images/tech/slack.svg" }
@@ -217,7 +222,7 @@ function createButtonListWithIcon(buttonNames, containerId) {
     container.appendChild(techItem);
   });
 }
-createButtonListWithIcon(frontendTechnologies, "frontendExpertise");
+// createButtonListWithIcon(frontendTechnologies, "frontendExpertise");
 createButtonListWithIcon(backendTechnologies, "backendExpertise");
 createButtonListWithIcon(databaseTechnologies, "databaseExpertise");
 createButtonListWithIcon(devopsTechnologies, "devopsExpertise");
