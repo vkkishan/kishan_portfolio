@@ -194,7 +194,7 @@ const devopsTechnologies = [
 const toolsTechnologies = [
   { name: "VS Code", icon: "./assets/images/tech/vscode.svg" },
   { name: "Postman", icon: "./assets/images/tech/postman.svg" },
-  { name: "Insomnia", icon: "./assets/images/tech/insomnia.svg" },
+  { name: "Insomnia", icon: "./assets/images/tech/Insomnia.svg" },
   { name: "Jira", icon: "./assets/images/tech/jira.svg" },
   { name: "Trello", icon: "./assets/images/tech/trello.svg" },
   { name: "Slack", icon: "./assets/images/tech/slack.svg" }
