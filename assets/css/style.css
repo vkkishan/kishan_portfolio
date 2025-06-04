@@ -2220,13 +2220,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .timeline-details li:before {
-  content: "↪";
-  position: absolute;
-  left: -15px;
-  color: var(--text-accent);
-}
-.timeline-arrow li:before {
-  content: "↪";
+  content: "→";
   position: absolute;
   left: -15px;
   color: var(--text-accent);
