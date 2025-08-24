@@ -166,12 +166,12 @@ const frontendTechnologies = [
 
 // Backend Technologies
 const backendTechnologies = [
-  { name: "JavaScript", icon: "./assets/images/tech/javascript.svg" },
   { name: "Node.js", icon: "./assets/images/tech/nodejs.svg" },
-  { name: "Express.js", icon: "./assets/images/tech/express.svg" },
+  { name: "JavaScript", icon: "./assets/images/tech/javascript.svg" },
   { name: "TypeScript", icon: "./assets/images/tech/typescript.svg" },
-  // { name: "PHP", icon: "./assets/images/tech/php.svg" },
-  // { name: "Laravel", icon: "./assets/images/tech/laravel.svg" },
+  { name: "Express.js", icon: "./assets/images/tech/express.svg" },
+  { name: "Nest.js", icon: "./assets/images/tech/nest.svg" },
+  { name: "Fastify.js", icon: "./assets/images/tech/fastify.svg" },
 ];
 
 // Databases
@@ -186,14 +186,18 @@ const devopsTechnologies = [
   { name: "Git", icon: "./assets/images/tech/git.svg" },
   { name: "GitHub", icon: "./assets/images/tech/github.svg" },
   { name: "AWS", icon: "./assets/images/tech/aws.svg" },
+  { name: "Cloud Flare", icon: "./assets/images/tech/cloudflare.svg" },
+  { name: "Digital Ocean", icon: "./assets/images/tech/digitalocean.svg" },
   { name: "NGINX", icon: "./assets/images/tech/nginx.svg" },
-  { name: "Apache", icon: "./assets/images/tech/apache.svg" }
+  { name: "Apache", icon: "./assets/images/tech/apache.svg" },
+  // { name: "Docker", icon: "./assets/images/tech/docker.svg" }
 ];
 
 // Tools & Utilities
 const toolsTechnologies = [
   { name: "VS Code", icon: "./assets/images/tech/vscode.svg" },
   { name: "Postman", icon: "./assets/images/tech/postman.svg" },
+  { name: "Swagger", icon: "./assets/images/tech/swagger.svg" },
   { name: "Insomnia", icon: "./assets/images/tech/Insomnia.svg" },
   { name: "Jira", icon: "./assets/images/tech/jira.svg" },
   { name: "Trello", icon: "./assets/images/tech/trello.svg" },
